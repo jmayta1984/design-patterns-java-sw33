@@ -1,4 +1,5 @@
 package creational.builder.components;
 
-public class Transmission {
+public enum Transmission {
+    SINGLE_SPEED, MANUAL, AUTOMATIC, SEMI_AUTOMATIC
 }
