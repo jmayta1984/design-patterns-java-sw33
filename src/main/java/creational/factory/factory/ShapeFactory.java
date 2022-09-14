@@ -1,7 +1,13 @@
-package creational.factory;
+package creational.factory.factory;
 
-public class ShapeFactory {
+import creational.factory.product.Circle;
+import creational.factory.product.Rectangle;
+import creational.factory.product.Shape;
+import creational.factory.product.Square;
 
+public class ShapeFactory implements Factory {
+
+    @Override
     public Shape getShape(String shapeType){
         if (shapeType == null){
             return null;
