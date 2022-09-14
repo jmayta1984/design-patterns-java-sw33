@@ -1,6 +1,8 @@
-package structural.adapter.toystore.adaptee;
+package structural.adapter.toystore;
 
-public class Sparrow implements Bird{
+import structural.adapter.toystore.adaptee.Bird;
+
+public class Sparrow implements Bird {
 
     @Override
     public void fly() {
