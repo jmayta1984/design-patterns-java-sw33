@@ -18,5 +18,12 @@ public class Demo {
 
         System.out.println("Sparrow...");
         sparrow.makeSound();
+
+        System.out.println();
+
+        PlasticToyDuck plasticToyDuck = new PlasticToyDuck();
+        System.out.println("Plastic Toy Duck...");
+        plasticToyDuck.squeak();
+
     }
 }
